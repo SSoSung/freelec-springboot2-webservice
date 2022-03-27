@@ -42,4 +42,9 @@ public class Posts {
     // 이렇게 되면 해당 클래스의 인스턴스 값들이 언제 어디서 변해야 하는지 코드상으로 명확하게 구분할 수가 없어, 차후 기능 변경시 정말 복잡해진다.
     // Entity 클래스에서는 절대 Setter 메소드를 만들지 않는다.
     // 대신, 해당 필드의 값 변경이 필요하면 명확히 그 목적과 의도를 나타낼 수 있는 메소드를 추가해야만 한다.
+
+    public void update(String title, String content){
+        this.title = title;
+        this.content = content;
+    }
 }
