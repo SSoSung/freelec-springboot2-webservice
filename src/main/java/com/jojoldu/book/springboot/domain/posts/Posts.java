@@ -11,7 +11,7 @@ import javax.persistence.*;
 // public Posts(){}와 같은 효과
 @NoArgsConstructor
 @Entity
-public class Posts {
+public class Posts extends  BaseTimeEntity{
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
