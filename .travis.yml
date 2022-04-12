@@ -21,4 +21,4 @@
         - gustjd1209@gmail.com
 
   before_install:
-    - chmod +x gradlew
+    - chmod +x ./gradlew
